@@ -1,0 +1,15 @@
+---
+title: "Simulations aléatoires"
+output: html_document
+date: "2025-03-04"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loi uniforme
+
+On a $X \hookrightarrow U(a,b) $ alors sa fonction de répartition $F(x)=\frac{x-a}{b-a}$
+
+Sa fonction de répartition inverse est $F^{-1}(u)=a+u(b-a)$
